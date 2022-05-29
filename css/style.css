@@ -1,0 +1,195 @@
+body{
+  /* background-color: skyblue; */
+  margin: 0;
+  text-align: center;
+
+}
+
+h1{
+  width: 10%;
+  margin: auto;
+  font-size: 5.625rem;
+  font-family: 'Lobster', cursive;
+  color: #16003B;
+
+}
+h2{
+  font-size: 2.5rem;
+
+  color: #16003B;
+  font-weight: normal;
+}
+
+h3{
+  font-size: 2.5rem;
+  font-weight: normal;
+
+}
+
+p{
+  font-family: 'Secular One', sans-serif;
+  line-height: 2;
+
+}
+
+
+a{
+  padding: 10px;
+  text-decoration: none;
+
+}
+a:hover{
+  color: white;
+}
+
+
+
+hr{
+
+  width: 5%;
+  border-style: dotted none none none;
+  border-width: 5px;
+  color: #DAE5D0;
+  margin: 100px auto;
+
+
+}
+
+
+.p1{
+    font-family: 'Pacifico', cursive;
+
+}
+
+ .top{
+ background-color: skyblue;
+  /* margin-left: 45%;
+  margin-top: 10%; */
+  margin: auto;
+  position: relative;
+  /* as we set our top container to relative position so we can move our whole content of top div using padding */
+  padding-top: 100px;
+}
+
+.bottom{
+  background-color: #43919B;
+  margin-top: 70px;
+  padding: 20px;
+  height: auto;
+}
+
+
+.pro{
+  font-style: oblique;
+  font-weight: bold;
+
+}
+
+
+
+
+.bottom-cloud{
+  position: absolute;
+  left: 18.75rem;
+  top: 30.375rem;
+}
+
+.top-cloud{
+  position: absolute;
+  right:  18.75rem;
+  top:    2.5rem;
+}
+
+.coding-img{
+  /* height: 150px;
+  width: 150px; */
+    width: 25%;
+    float: left;
+  margin-right: 30px;
+
+}
+
+.Exploration-creation-img{
+  /* height: 150px;
+  width: 150px; */
+  width: 25%;
+    float: right;
+    margin-left:  30px;
+
+}
+
+
+
+.skill-row{
+/*  margin: auto;*/
+  margin: 100px auto 100px auto;
+  width: 50%;
+  text-align: left;
+
+}
+/*
+.btn{
+    display: block;
+    width: 115px;
+    height: 25px;
+    background: #43919B;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+    margin: auto;
+
+this is from stack overflow !!!
+
+} */
+
+.footer-link{
+  color: white;
+}
+
+.profile{
+  margin-top: 6.25rem;
+}
+
+.intro{
+  width: 30%;
+  margin: auto;
+}
+
+.btn {
+  background: #28668f;
+  background-image: -webkit-linear-gradient(top, #28668f, #438cba);
+  background-image: -moz-linear-gradient(top, #28668f, #438cba);
+  background-image: -ms-linear-gradient(top, #28668f, #438cba);
+  background-image: -o-linear-gradient(top, #28668f, #438cba);
+  background-image: linear-gradient(to bottom, #28668f, #438cba);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  -webkit-box-shadow: 0px 1px 3px #050505;
+  -moz-box-shadow: 0px 1px 3px #050505;
+  box-shadow: 0px 1px 3px #050505;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 9px 20px 10px 20px;
+  border: solid #38769c 2px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #77b1db;
+  background-image: -webkit-linear-gradient(top, #77b1db, #6ea2c9);
+  background-image: -moz-linear-gradient(top, #77b1db, #6ea2c9);
+  background-image: -ms-linear-gradient(top, #77b1db, #6ea2c9);
+  background-image: -o-linear-gradient(top, #77b1db, #6ea2c9);
+  background-image: linear-gradient(to bottom, #77b1db, #6ea2c9);
+  text-decoration: none;
+}
+
+.copyright{
+  padding-top: 40px;
+  font-size: .725rem;
+}
